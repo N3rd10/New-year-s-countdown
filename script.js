@@ -1,6 +1,6 @@
 // Countdown Timer Logic
 function updateCountdown() {
-    const targetDate = new Date("2026-01-1T00:00:00");
+    const targetDate = new Date("2026-01-1T00:00:01");
     const now = new Date();
     const timeDifference = targetDate - now;
 
